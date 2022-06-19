@@ -1,19 +1,107 @@
 // Using a loop print all odd numbers up to and including n. Don’t include 0.
-for(var i=1;i<=13;i++){
+// for(var i=1;i<=13;i++){
 
-    if(i%2==1)
+//     if(i%2==1)
     
-    console.log(i);
-}
+//     console.log(i);
+// }
 
 // ...........Print the sum of all even numbers in a range from a to b. (Including a,b......
-
-       
-// let sum=0
-// for(i=2;i<=8;i++){
-//   if(i%2==0){
-//     sum=sum+i;
+// let sum=0;
+// for( let i=2;i<=8;i++){
+//     if(i%2==0){
+//         sum=sum+i;
 //     }
+// }   
+// console.log(sum);    
+// 
+// ********Write a program to read the first and last digit of a number**********
+// let num =123;
+// Fdigit=num%10;
+// Ldigit=Math.floor(num/100);
+// while(num!=0){
+    
 // }
-// console.log(sum);
+// let num=243;
+//         let x=num%10
+//         let y=Math.floor(num/100)
+//         // return (y+" "+x);
+// console.log(y+" "+x);
+
+// ++++++++++Check whether the given number is an armstrong number or not.+++++++++++++++++
+
+// let num=143;
+// let Fdigit=num%10;
+// let Sdigit=Math.floor(num/10)%10;
+// let Ldigit=Math.floor(num/100);
+// if(Fdigit**3+Sdigit**3+Ldigit**3==num){
+//     console.log("armstrong No");
+// }
+// else{
+//     console.log("not a armstrong no");
+// }
+
+
+// 3333333333Take two numbers and find product of all numbers between them that satisfy following condition (inclusive range): 
+// Condition 1 - Second last digit of number is 4
+// Condition 2 - Numbers should be even 3333333333333333333
+
+// 
+
+
+// 55555555555555  Take a number and return all the even digits of the number   55555555555555
+// let num=2367;
+// let A=num%10;
+// let B=Math.floor(num/10)%10;
+// let C=Math.floor(num/100)%10;
+// let D=Math.floor(num/1000);
+// for(i=D;i<=A;i++)
+// {
+// if(i%2==0){
+//     console.log(i);
+// }
+// else{
+//     console.log("odd nos");
+// }
+// }
+// if(A%2==0 && B%2==0 || C%2==0 && D%2==0)
+// {
+//     console.log(A);
+//     console.log(B);
+//     console.log(C);
+//     console.log(D);
+
+// }
+// else{
+//     console.log("odd numbers")
+// }
+// if(A%2==0){
+// console.log(A);
+// }
+// else if(B%2==0){
+//     console.log(B)
+// }
+// else if(C%2==0){
+//     console.log(C)
+// }
+// else if(D%2==0){
+//     console.log(D)
+// }
+// else{
+//     console.log("nothing")
+// }
+// Check whether the given number is equal to its reverse number or not
+
+let num=111;
+let Fdigit=num%10;
+let Sdigit=Math.floor(num/10)%10;
+let Ldigit=Math.floor(num/100);
+let ReverseNo=Fdigit*100+Sdigit*10+Ldigit;
+if(num==ReverseNo){
+    console.log("Equal")
+}else{
+    console.log("NOt Equal")
+}
+
+
 
