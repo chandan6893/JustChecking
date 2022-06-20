@@ -92,16 +92,50 @@
 // }
 // Check whether the given number is equal to its reverse number or not
 
-let num=111;
-let Fdigit=num%10;
-let Sdigit=Math.floor(num/10)%10;
-let Ldigit=Math.floor(num/100);
-let ReverseNo=Fdigit*100+Sdigit*10+Ldigit;
-if(num==ReverseNo){
-    console.log("Equal")
-}else{
-    console.log("NOt Equal")
-}
+// let num=111;
+// let Fdigit=num%10;
+// let Sdigit=Math.floor(num/10)%10;
+// let Ldigit=Math.floor(num/100);
+// let ReverseNo=Fdigit*100+Sdigit*10+Ldigit;
+// if(num==ReverseNo){
+//     console.log("Equal")
+// }else{
+//     console.log("NOt Equal")
+// }
 
 
+// 
+// let num=1;
+// while(num<10)
+// {
+//     if(num%2!=0){
+//         console.log(num);
+//     }
+//     else{
+//         console.log("even")
+//     }
+//     num++;
+// }
+// JavaScript Program to Find the Largest Among Three Numbers using if else 
 
+
+// let num1=23 ;
+// let num2=25;
+// let num3=56;
+// if(num1>num2 && num2>num3){
+//     console.log(num1);
+// }
+// else{
+//     console.log(num3);
+// }
+// JavaScript Program to Find the Largest Among Three Numbers using for loop
+// 
+// JavaScript Program to Add Two Numbers
+// let num1=12;
+// let num2=20;
+// let num3;
+// console.log(num3=num1+num2);
+
+// JavaScript Program to Find the Square Root using if else
+let num=9;
+console.log(Math.sqrt(num));

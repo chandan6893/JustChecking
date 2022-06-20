@@ -1,4 +1,4 @@
-Q1 OUTPUT
+<!-- Q1 OUTPUT
  <img src="Images\OddNos.png" alt="">
  
  Q2 OUTPUT
@@ -18,5 +18,8 @@ Q6 OUTPUT
 <img src="Images\EvenDigits.png" alt="">
 
 Q7 OUTPUT
-<img src="Images\ReverseNo.png" alt="">
-
+<!-- <img src="Images\ReverseNo.png" alt=""> --> -->
+<!--  -->
+<img src="Images\ifelse.png" alt="">
+<img src="Images\AddTwoNo.png" alt="">
+<img src="Images\sqrt.png" alt="">
