@@ -119,15 +119,8 @@
 // JavaScript Program to Find the Largest Among Three Numbers using if else 
 
 
-// let num1=23 ;
-// let num2=25;
-// let num3=56;
-// if(num1>num2 && num2>num3){
-//     console.log(num1);
-// }
-// else{
-//     console.log(num3);
-// }
+// 
+
 // JavaScript Program to Find the Largest Among Three Numbers using for loop
 // 
 // JavaScript Program to Add Two Numbers
@@ -137,5 +130,18 @@
 // console.log(num3=num1+num2);
 
 // JavaScript Program to Find the Square Root using if else
-let num=9;
-console.log(Math.sqrt(num));
+// 
+// JavaScript Program to Swap Two Variables
+// var X=23;
+// var Y=24;
+// var temp;
+// temp=X;
+// X=Y;
+// Y=temp;
+// console.log(Y);
+
+// JavaScript Program to Find the Largest Among Three Numbers using for loop
+// let a;
+// if(a%2==0 && a<=10)
+// Numbers
+// for(let i=0;i<=100;i++)

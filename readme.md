@@ -23,3 +23,4 @@ Q7 OUTPUT
 <img src="Images\ifelse.png" alt="">
 <img src="Images\AddTwoNo.png" alt="">
 <img src="Images\sqrt.png" alt="">
+<img src="Images\sqrt.png" alt="">
