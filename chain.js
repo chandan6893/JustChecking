@@ -145,3 +145,49 @@
 // if(a%2==0 && a<=10)
 // Numbers
 // for(let i=0;i<=100;i++)
+// JavaScript Program to Find the Largest Among Three Numbers using for loop
+    // WRITE A PROGRAM TO CHECK WHETHER A GIVEN YEAR IS A LEAP YEAR OR NOT
+    // let year =100;
+    
+    // if ((year % 4==0) && (year % 100!=0) || (year % 400==0) ) {
+    //     console.log('leap year');
+    // } else {
+    //     console.log(' not a leap year');
+    // }
+    // ternary OPERATOR
+    // let age=10;
+    // console.log( age=(age>=18 ) ? "can vote" : "can not vote");
+    // Take 3 numbers and find and return biggest of them. If all three numbers are same than print "None of them is biggest"
+
+// iIf there are two numbers same as biggest than also print "None of them is biggest"
+   
+        let num1=80;
+        let num2=45;
+        let num3=40;
+        switch(num1>num2 && num1>num3)
+        {
+            case true :
+                console.log(num1);
+                break;
+        }
+        switch(num2>num1 && num2>num3)
+        {
+            case true:
+                console.log(num2);
+                break;
+        }
+        switch(num3>num1 && num3>num2)
+        {
+            case true:
+                console.log(num3);
+                break;
+        }
+        switch(num1==num2 || num2==num3 || num3==num1)
+        {
+            case true:
+                 console.log("None of them is biggest");
+        }
+
+        
+    
+    

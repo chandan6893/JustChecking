@@ -20,7 +20,11 @@ Q6 OUTPUT
 Q7 OUTPUT
 <!-- <img src="Images\ReverseNo.png" alt=""> --> -->
 <!--  -->
-<img src="Images\ifelse.png" alt="">
+<!-- <img src="Images\ifelse.png" alt="">
 <img src="Images\AddTwoNo.png" alt="">
 <img src="Images\sqrt.png" alt="">
-<img src="Images\sqrt.png" alt="">
+<img src="Images\sqrt.png" alt=""> -->
+
+<img src="Images\leap year.png" alt="">
+<img src="Images\ternaryOperator.png" alt="">
+<img src="Images\switchCase.png" alt="">
