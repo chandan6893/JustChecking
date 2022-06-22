@@ -161,33 +161,70 @@
 
 // iIf there are two numbers same as biggest than also print "None of them is biggest"
    
-        let num1=80;
-        let num2=45;
-        let num3=40;
-        switch(num1>num2 && num1>num3)
-        {
-            case true :
-                console.log(num1);
-                break;
-        }
-        switch(num2>num1 && num2>num3)
-        {
-            case true:
-                console.log(num2);
-                break;
-        }
-        switch(num3>num1 && num3>num2)
-        {
-            case true:
-                console.log(num3);
-                break;
-        }
-        switch(num1==num2 || num2==num3 || num3==num1)
-        {
-            case true:
-                 console.log("None of them is biggest");
-        }
+        // let num1=80;
+        // let num2=45;
+        // let num3=40;
+        // switch(num1>num2 && num1>num3)
+        // {
+        //     case true :
+        //         console.log(num1);
+        //         break;
+        // }
+        // switch(num2>num1 && num2>num3)
+        // {
+        //     case true:
+        //         console.log(num2);
+        //         break;
+        // }
+        // switch(num3>num1 && num3>num2)
+        // {
+        //     case true:
+        //         console.log(num3);
+        //         break;
+        // }
+        // switch(num1==num2 || num2==num3 || num3==num1)
+        // {
+        //     case true:
+        //          console.log("None of them is biggest");
+        // }
 
+        // FACTORIAL OF A Number USING WHILE LOOP 
         
+    //     for(i=2;i<=19;i++){
+    //   if(i%2==0){
+    //     console.log("not a prime");
+    //   }
+    //   else{
+    //     console.log(i)
+    //   }
+        
+    // }
     
-    
+  //   let n=20;
+  // let charge=0;
+  // if (n>15){
+  // charge =  (n-15)*5+5*0+5*3+5*4;
+  //   console.log(charge);
+  // }
+  // else if(n>10){
+  //   charge=(n-10)*4+5*0+5*3;
+  //   console.log(charge);
+  // }
+  // else if(n>5){
+  //   charge=(n-5)*3+5*0;
+  //   console.log(charge);
+  // }
+  //   else{
+  //     charge=5*0;
+  //     console.log(charge);
+  //   }
+    function x(num,fact){
+     if (num>0){
+      fact=fact*num;
+      return x((num-1),fact);
+      
+     }
+      
+     return fact;
+    }
+   console.log(x(5,1));

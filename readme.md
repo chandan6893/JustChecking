@@ -25,6 +25,9 @@ Q7 OUTPUT
 <img src="Images\sqrt.png" alt="">
 <img src="Images\sqrt.png" alt=""> -->
 
-<img src="Images\leap year.png" alt="">
+<!-- <img src="Images\leap year.png" alt="">
 <img src="Images\ternaryOperator.png" alt="">
-<img src="Images\switchCase.png" alt="">
+<img src="Images\switchCase.png" alt=""> -->
+<img src="Images\Factorial.png" alt="">
+<img src="Images\ElectricityCharge.png" alt="">
+<img src="Images\Factorial.png" alt="">
