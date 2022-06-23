@@ -218,13 +218,68 @@
   //     charge=5*0;
   //     console.log(charge);
   //   }
-    function x(num,fact){
-     if (num>0){
-      fact=fact*num;
-      return x((num-1),fact);
+  //   function x(num,fact){
+  //    if (num>0){
+  //     fact=fact*num;
+  //     return x((num-1),fact);
       
-     }
+  //    }
       
-     return fact;
-    }
-   console.log(x(5,1));
+  //    return fact;
+  //   }
+  //  console.log(x(5,1));
+  // function product(a,b){
+  //   let num1=a;
+  //   let num2=b;
+  //    let proD=1;
+  //  for(let i=num1; i<num2; i++){
+  //  //   if((num1+i)%2==0 && Math.floor((num1+i)/10)%10==4){
+      
+  //  //     proD=proD*i;
+  //  //   }
+  //    let SLDigit=Math.floor((num1+i)/10);
+  //    if( (num1+i)%2 == 0 && SLDigit==4){
+  //      proD=proD*(num1+i);
+  //      return proD;
+  //    }
+  //    else {
+  //      return 0;
+  //    }
+  //  }
+     
+      
+   
+     
+  //  }
+  //  console.log(product(40,80));
+  // declaring a function named greet()
+// function greet() {
+//   console.log("Hello there");
+// }
+// greet();
+// function (a){
+  
+  
+  
+//   let i=1
+//   while(i<=10){
+//     let T;
+//     a=b;
+//     b=T;
+    
+    
+//   }
+  
+  
+//   return T ;
+// }
+// console.log((10));
+function range(a,b){
+  console.log(a);
+  // let i;
+  while(a<b){
+return range(a+1,b);
+
+  }
+}
+range(40,50)
