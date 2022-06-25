@@ -30,6 +30,12 @@ Q7 OUTPUT
 <img src="Images\switchCase.png" alt=""> -->
 <!-- <img src="Images\Factorial.png" alt="">
 <img src="Images\ElectricityCharge.png" alt=""> -->
-<img src="Images\Factorial.png" alt="">
+
+
+<!-- <img src="Images\Factorial.png" alt="">
 <img src="Images\FubctionDecleration.png" alt="">
-<img src="Images\GivenRange.png" alt="">
+<img src="Images\GivenRange.png" alt=""> -->
+
+
+<img src="Images\Hello.png" alt="">
+<img src="Images\text.png" alt="">
