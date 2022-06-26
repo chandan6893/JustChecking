@@ -214,6 +214,8 @@
 //     charge=5*0;
 //     console.log(charge);
 //   }
+
+
 //   function x(num,fact){
 //    if (num>0){
 //     fact=fact*num;
@@ -224,6 +226,10 @@
 //    return fact;
 //   }
 //  console.log(x(5,1));
+
+
+
+
 // function product(a,b){
 //   let num1=a;
 //   let num2=b;
@@ -375,12 +381,12 @@
 // // range(40,50);
 
 // console.log(Z(40,50));
+let fact=1;
+for(let i=5;i>0;i--){
+    
 
-for(let i=1;i<=10;i++){
-    // console.log(i);
-    if(i%2!=0){
-        console.log(i);
-    }
+   fact=fact*i;
+//    console.log(fact);
+//  return fact;
 }
-
-
+console.log(fact);
