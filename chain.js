@@ -338,16 +338,49 @@
 
 
 // program to add two numbers using a function
-function add(a,b){
-return a+b;
+// function fibo(first,second,counter){
+    
+//     if(counter<10){
+//         console.log(first);
+//         let c=first+second;
+//         return fibo(second,c,counter + 1);
+
+//     }
+   
+//   }
+//   fibo(1,1,1)
+
+
+
+// 
+
+
+// let MyFun=(a,b)=>{
+//     // console.log(a*b);
+//     return a*b;
+// }
+// let Z=MyFun(8,9);
+// console.log(Z)
+// let Z=function range(a,b){
+    
+// if(a>=b){
+    
+//     return 50;
+// }
+// else{
+//     console.log(a)
+//     return range(a+1,b);
+// }
+// }
+// // range(40,50);
+
+// console.log(Z(40,50));
+
+for(let i=1;i<=10;i++){
+    // console.log(i);
+    if(i%2!=0){
+        console.log(i);
+    }
 }
-
-// add(3,4);
-console.log(add(3,4));
-
-
-
-
-
 
 
