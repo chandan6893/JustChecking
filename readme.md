@@ -39,4 +39,5 @@ Q7 OUTPUT
 
 <!-- <img src="Images\Hello.png" alt=""> -->
 <!-- <img src="Images\text.png" alt=""> -->
-<img src="Images\WhileRevNo.png" alt"">
+
+<img src="Images\WhileRevNo.png" alt="" >
