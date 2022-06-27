@@ -381,12 +381,20 @@
 // // range(40,50);
 
 // console.log(Z(40,50));
-let fact=1;
-for(let i=5;i>0;i--){
-    
+//
 
-   fact=fact*i;
-//    console.log(fact);
-//  return fact;
+
+
+
+
+
+
+// while loop practice
+let n=10;
+while(n>0){
+   console.log(n);
+   
+
+    n--;
 }
-console.log(fact);
+
