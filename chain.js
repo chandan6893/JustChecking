@@ -390,11 +390,25 @@
 
 
 // while loop practice
-let n=10;
-while(n>0){
-   console.log(n);
+// let n=10;
+// while(n>0){
+//    console.log(n);
    
 
-    n--;
+//     n--;
+// }
+
+function reverseNo(n){
+   
+   while(n>0){
+      console.log(n);
+      
+        return reverseNo(n-1);
+    
+   }
+  
 }
+let Z=reverseNo(10);
+console.log(Z);
+
 
