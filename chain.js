@@ -216,16 +216,16 @@
 //   }
 
 
-//   function x(num,fact){
+//   function factOfANum(num,fact){
 //    if (num>0){
 //     fact=fact*num;
-//     return x((num-1),fact);
+//     return factOfANum((num-1),fact);
 
 //    }
 
 //    return fact;
 //   }
-//  console.log(x(5,1));
+//  console.log(factOfANum(5,1));
 
 
 
@@ -398,17 +398,24 @@
 //     n--;
 // }
 
-function reverseNo(n){
+
+
+// let X=function Numb(){
+//    return "10 to 1"
+//    }
+// console.log(X());
+
+
+// let Z=function reverseNo(n){
    
-   while(n>0){
-      console.log(n);
+//    while(n>0){
+//       // console.log(n);
       
-        return reverseNo(n-1);
+//         return reverseNo(n-1);
     
-   }
+//    }
   
-}
-let Z=reverseNo(10);
-console.log(Z);
+// }
 
-
+// console.log(Z(10));
+// console.log();
